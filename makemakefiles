@@ -1,0 +1,14 @@
+#
+# Usage:
+#    make -f makemakefiles
+# or, for Microsoft Visual C++:
+#    nmake -f makemakefiles MMOPT=-n
+#
+
+MAKEMAKE=opp_makemake $(MMOPT)
+
+CORE4INET_PROJ=../CoRE4INET
+INET_PROJ=../inet
+
+all:
+	cd src && $(MAKEMAKE) -f --deep -KCORE4INET_PROJ=../../CoRE4INET -KINET_PROJ=../../inet -DINET_IMPORT -I. -I$$\(CORE4INET_PROJ\)/src -I$$\(CORE4INET_PROJ\)/src/core4inet/api/AS6802/tte_api -I$$\(INET_PROJ\)/src -L$$\(CORE4INET_PROJ\)/src -L$$\(INET_PROJ\)/src -lCoRE4INET$$\(D\) -lINET$$\(D\)

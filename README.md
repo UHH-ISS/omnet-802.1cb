@@ -1,7 +1,9 @@
 # omnet-802.1cb
 IEEE 802.1CB FRER implementation in OMNeT++
 
+You can compile it as a standard OMNeT++ library regarding the respective version in the following paper.
 
+```
 @INPROCEEDINGS{Erge2106:Implementation,
 AUTHOR="Doğanalp Ergenç and Mathias Fischer",
 TITLE="Implementation and Orchestration of {IEEE} {802.1CB} {FRER} in {OMNeT++}",
@@ -14,3 +16,4 @@ YEAR=2021,
 KEYWORDS="TSN; FRER; SPB; IS-IS; simulation; OMNeT++",
 hanisms. The whole implementation is available as
 open-source."}
+```
