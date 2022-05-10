@@ -1,3 +1,3 @@
-package ieee8021cb;
+package ieee8021cbfrer;
 
 @license(LGPL);

@@ -13,7 +13,7 @@
 // along with this program.  If not, see http://www.gnu.org/licenses/.
 // 
 
-package ieee8021cb.spb;
+package ieee8021cbfrer.spb;
 
 simple PathSelectionTable
 {

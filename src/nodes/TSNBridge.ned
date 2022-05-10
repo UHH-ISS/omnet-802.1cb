@@ -13,7 +13,7 @@
 // along with this program.  If not, see http://www.gnu.org/licenses/.
 // 
 
-package ieee8021cb.nodes;
+package ieee8021cbfrer.nodes;
 
 import core4inet.linklayer.port.TSNPHYPort;
 import core4inet.scheduler.ITTEScheduler;
@@ -29,14 +29,14 @@ import inet.linklayer.contract.IMACRelayUnit;
 import inet.common.lifecycle.NodeStatus;
 import inet.networklayer.common.InterfaceTable;
 
-import ieee8021cb.frer.StreamRecovery;
-import ieee8021cb.frer.EnhancedStreamRecovery;
-import ieee8021cb.frer.LatentErrorDetection;
-import ieee8021cb.spb.SPB;
-import ieee8021cb.routing.ISIS;
-import ieee8021cb.frer.TSNRelay;
-import ieee8021cb.spb.PathSelectionTable;
-import ieee8021cb.spb.ExtendedMACTable;
+import ieee8021cbfrer.frer.StreamRecovery;
+import ieee8021cbfrer.frer.EnhancedStreamRecovery;
+import ieee8021cbfrer.frer.LatentErrorDetection;
+import ieee8021cbfrer.spb.SPB;
+import ieee8021cbfrer.routing.ISIS;
+import ieee8021cbfrer.frer.TSNRelay;
+import ieee8021cbfrer.spb.PathSelectionTable;
+import ieee8021cbfrer.spb.ExtendedMACTable;
 
 module TSNBridge
 {

@@ -1,3 +1,3 @@
-package ieee8021cb.simulations;
+package ieee8021cbfrer.simulations;
 
 @license(LGPL);

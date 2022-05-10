@@ -13,14 +13,14 @@
 // along with this program.  If not, see http://www.gnu.org/licenses/.
 // 
 
-package ieee8021cb.simulations.custom_scenarios;
+package ieee8021cbfrer.simulations.custom_scenarios;
 
 import inet.node.ethernet.Eth100M;
 import inet.node.ethernet.Eth1G;
 import inet.visualizer.common.PacketDropVisualizer;
 
-import ieee8021cb.nodes.TSNEndpoint;
-import ieee8021cb.nodes.TSNBridge;
+import ieee8021cbfrer.nodes.TSNEndpoint;
+import ieee8021cbfrer.nodes.TSNBridge;
 
 //
 // Small sample network with three hosts and one switch that shows how to 

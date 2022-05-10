@@ -1,12 +1,12 @@
 #
-# OMNeT++/OMNEST Makefile for ieee8021cb
+# OMNeT++/OMNEST Makefile for ieee8021cbfrer
 #
 # This file was generated with the command:
 #  opp_makemake -f --deep -KCORE4INET_PROJ=../../CoRE4INET -KINET_PROJ=../../inet -DINET_IMPORT -I. -I$(CORE4INET_PROJ)/src -I$(CORE4INET_PROJ)/src/core4inet/api/AS6802/tte_api -I$(INET_PROJ)/src -L$(CORE4INET_PROJ)/src -L$(INET_PROJ)/src -lCoRE4INET$(D) -lINET$(D)
 #
 
 # Name of target to be created (-o option)
-TARGET = ieee8021cb$(D)$(EXE_SUFFIX)
+TARGET = ieee8021cbfrer$(D)$(EXE_SUFFIX)
 TARGET_DIR = .
 
 # User interface (uncomment one) (-u option)

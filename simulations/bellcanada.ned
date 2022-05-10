@@ -1,11 +1,11 @@
-package ieee8021cb.simulations;
+package ieee8021cbfrer.simulations;
 
 import inet.node.ethernet.Eth100M;
 import inet.node.ethernet.Eth1G;
 import inet.visualizer.common.PacketDropVisualizer;
 
-import ieee8021cb.nodes.TSNEndpoint;
-import ieee8021cb.nodes.TSNBridge;
+import ieee8021cbfrer.nodes.TSNEndpoint;
+import ieee8021cbfrer.nodes.TSNBridge;
 
 import inet.common.scenario.ScenarioManager; 
 

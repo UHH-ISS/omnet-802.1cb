@@ -13,7 +13,7 @@
 // along with this program.  If not, see http://www.gnu.org/licenses/.
 // 
 
-package ieee8021cb.routing;
+package ieee8021cbfrer.routing;
 
 //
 // This program is free software: you can redistribute it and/or modify

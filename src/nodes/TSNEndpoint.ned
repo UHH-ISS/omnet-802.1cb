@@ -13,7 +13,7 @@
 // along with this program.  If not, see http://www.gnu.org/licenses/.
 // 
 
-package ieee8021cb.nodes;
+package ieee8021cbfrer.nodes;
 
 import core4inet.applications.base.IApplication;
 import core4inet.buffer.base.BGQueueBuffer;
@@ -30,10 +30,10 @@ import core4inet.incoming.IEEE8021Qbv.IEEE8021QbvIncoming;
 import inet.common.lifecycle.NodeStatus;
 import inet.networklayer.common.InterfaceTable;
 
-import ieee8021cb.frer.SequenceEncoder;
-import ieee8021cb.routing.ISIS;
-import ieee8021cb.spb.SPBEtherEncap;
-import ieee8021cb.frer.StreamRecovery;
+import ieee8021cbfrer.frer.SequenceEncoder;
+import ieee8021cbfrer.routing.ISIS;
+import ieee8021cbfrer.spb.SPBEtherEncap;
+import ieee8021cbfrer.frer.StreamRecovery;
 
 module TSNEndpoint
 {
